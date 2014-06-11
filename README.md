@@ -1,15 +1,13 @@
 csdgm_postgres
 ==============
 
-Postgres schema for FGDC's CSDGM metadata model
+Postgres schema for FGDC's CSDGM metadata model (through Section 3).
 
 ----
 
 More information on FGDC's bloated-yet-insufficient-but-widely-adopted metadata standard: http://www.fgdc.gov/metadata/csdgm/.
 
-
-Written for PostgreSQL 9.3, but should be backwards compatible to most any version (not tested).
-
+Written for PostgreSQL 9.3, but should be backwards compatible to most any version (not tested, in fact none of it has been 'tested' in any way).
 
 Generally, single column values are used where the standard dictates only one value and lookup values are used when multiple elements are allowed. Additional tables are created for restricted values, e.g. Section 8.6 Geospatial Data Presentation Form.
 
